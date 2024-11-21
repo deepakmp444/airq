@@ -3,6 +3,7 @@ import AirQuality from "./AirQuality";
 import AirQualityMap from "./AirQualityMap";
 import AirAPI from "./AirAPI";
 import AirQualityHeatmap from "./AirQualityHeatmap";
+import MapComponent from "./FinalQuality";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <AirQuality /> */}
       {/* <AirQualityMap/> */}
       {/* <AirAPI/> */}
-      <AirQualityHeatmap/>
+      {/* <AirQualityHeatmap/>? */}
+      <MapComponent/>
     </div>
   );
 }
